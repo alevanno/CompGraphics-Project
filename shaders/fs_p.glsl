@@ -17,8 +17,7 @@ uniform vec3 lightDirection5;
 uniform vec3 lightDirection6;
 uniform vec3 lightDirection7;
 uniform vec3 lightDirection8;
-//In order to use more light, we define
-//one attribute for each light position
+// In order to use more lights, one attribute for each light position is defined
 uniform vec3 lightPosition1;
 uniform vec3 lightPosition2;
 uniform vec3 lightPosition3;
@@ -46,7 +45,7 @@ varying vec2 fsUVs;
 
 vec4 lightModel(int lt, vec3 pos, vec3 lPos, vec3 lDirX) {
 	
-	//The normalize light direction
+	//The normalized light direction
     vec3 nLightDir;
 	
 	//Float to store light dimension and cone length
