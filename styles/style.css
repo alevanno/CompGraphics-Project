@@ -33,7 +33,38 @@ body {
     bottom: 50px;
     left: 50%;
     margin-left: -100px;
-    width: 200px;
+    width: 170px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: -3px 3px 10px 0px rgba(48,48,48,0.3);
+    opacity: 0;
+}
+
+#furnName {
+    font-size: 30px;
+    text-align: center;
+}
+
+#colourBtn1, #colourBtn2 {
+    background-color: #e4e4e4; /* Green */
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#posbox {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    margin-left: -100px;
+    width: 250px;
     height: auto;
     background: rgb(255, 255, 255);
     border-radius: 25px;
