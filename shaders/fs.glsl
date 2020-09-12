@@ -83,8 +83,7 @@ void main() {
 	vec4 ambLight = diffuseTextureColorMixture * ambientLightColor * ambientLightInfluence;
 
 	
-	//Instead of computing it this way because directional
-	//Now we call a function to define light direction and size.
+	//Function to define light direction and size.
 	
 	vec4 lm1 = lightModel(lightType, fsPosition, lightPosition1, lightDirection1);
 	float lightDimension1 = lm1.a;
